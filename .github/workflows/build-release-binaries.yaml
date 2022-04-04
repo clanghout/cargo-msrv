@@ -31,7 +31,7 @@ jobs:
         run: cargo build --target=${{ matrix.target }} --release
 
       # Remove once python 3 is the default
-      - uses: actions/setup-python@v2.2.2
+      - uses: actions/setup-python@v3.1.0
         with:
           python-version: '3.x'
 
