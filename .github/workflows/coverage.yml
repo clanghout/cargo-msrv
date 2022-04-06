@@ -26,4 +26,4 @@ jobs:
           args: "--all-features --ignore-tests -- --test-threads=1"
 
       - name: upload_code_coverage
-        uses: codecov/codecov-action@v2.1.0
+        uses: codecov/codecov-action@v3
