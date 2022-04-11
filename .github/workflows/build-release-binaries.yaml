@@ -25,7 +25,7 @@ jobs:
         with:
           ref: ${{ github.event.release.target_commitish }}
 
-      - uses: Swatinem/rust-cache@v1.3.0
+      - uses: Swatinem/rust-cache@v1.4.0
 
       - name: build_${{ matrix.target }}_release_binary
         run: cargo build --target=${{ matrix.target }} --release
