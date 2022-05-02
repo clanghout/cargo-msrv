@@ -36,7 +36,7 @@ default-features = false
 features = ["rust-releases-rust-changelog", "rust-releases-rust-dist"]
 
 [dev-dependencies]
-parameterized = "0.3.1"
+parameterized = "1.0.0"
 yare = "1.0.1"
 
 [[bin]]
